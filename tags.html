@@ -2,12 +2,31 @@
 <html>
     <head>
         <title>Eunji's Website</title>
+        <style>
+            p.a {
+                font-family: "Times New Roman", Times, serif;
+                border: dotted black;
+            }
+            p.b {
+                font-family: Arial, Helvetica, sans-serif;
+                text-decoration: underline;
+            }
+            #borderimg1 {
+                text-align: center;
+
+                border: 100px solid transparent;
+                padding: 15px;
+                border-image: url(https://www.lib.washington.edu/images2/photos/reading-room-in-suzzallo-library-south-apse-view/@@images/6caf3dab-10c1-4b3a-90b5-7642cada05e1.jpeg) round;
+                border-image-slice: 10%;
+            }
+        </style>
     </head>
     <body>
         <h1>Eunji Shin</h1>
         <h2>About me</h2>
-        <p>I was born in South Korea and moved to the United States when I was 13.</p>
-        <p>I am undeclared major at University of Washington.</p>
+        <p class="a">I was born in South Korea and moved to the United States when I was 13.</p>
+        <p class="b">I am undeclared major at University of Washington.</p>
+        <p id="borderimg1">University of Washington</p>
         <h2>My Favorite Sites</h2>
         <ul>
             <li><a href="https://www.youtube.com/">Youtube</a></li>
@@ -19,10 +38,10 @@
         <h2>My Favorite Pictures</h2>
         <ul>
         <a href="https://www.petmd.com/sites/default/files/2020-11/picture-of-golden-retriever-dog_0.jpg">
-            <img src="https://www.petmd.com/sites/default/files/2020-11/picture-of-golden-retriever-dog_0.jpg" title="Golden Retriever" style="width:100px; height:100px; margin:5px">
+            <img src="https://www.petmd.com/sites/default/files/2020-11/picture-of-golden-retriever-dog_0.jpg" title="Golden Retriever" style="width:50px; height:50px; margin:20px">
         </a>
         <a href="https://spiritdogtraining.com/wp-content/uploads/2021/01/mini-goldendoodle.jpg">
-            <img src="https://spiritdogtraining.com/wp-content/uploads/2021/01/mini-goldendoodle.jpg" title="Goldendoodle" style="width:100px; height:100px; margin:5px">
+            <img src="https://spiritdogtraining.com/wp-content/uploads/2021/01/mini-goldendoodle.jpg" title="Goldendoodle" style="width:50px; height:50px; margin:20px">
         </a>
         </li>
         </ul>
